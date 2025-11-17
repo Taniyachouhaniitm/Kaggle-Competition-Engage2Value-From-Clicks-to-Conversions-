@@ -12,12 +12,12 @@ totalHits, pageViews, totals.bounces, new_visits, totals.visits: Indicators of u
 sessionNumber, sessionStart: Information related to session sequence and timing.
 Device & Technical Attributes
 
-deviceType, os, browser, screenSize, device.browserSize, device. language: Details about the user's device and browsing environment.
+deviceType, os, browser, screenSize, device.browserSize, device.language: Details about the user's device and browsing environment.
 browserMajor, device.*: Encompasses a variety of device-level descriptors such as model, version, and screen specifications.
 gclIdPresent: Signals the presence of a Google Click ID used in ad tracking.
 Traffic & Marketing Source
 
-userChannel, trafficSource, trafficSource.medium, trafficSource.keyword, trafficSource. Campaign: Insights into how users arrived at the platform.
+userChannel, trafficSource, trafficSource.medium, trafficSource.keyword, trafficSource.campaign: Insights into how users arrived at the platform.
 trafficSource.adwordsClickInfo.*: Contains attributes from advertising sources, including ad network type and slot.
 trafficSource.adContent, trafficSource.referralPath, trafficSource.isTrueDirect: Provide further attribution details.
 Geographical Context
@@ -30,6 +30,3 @@ userId, sessionId: Unique identifiers for each user and session, allowing for mu
 Target Variable
 
 purchaseValue: The amount (in currency units) spent by the customer during the session. This is the target variable to be predicted.
-
-
-License
